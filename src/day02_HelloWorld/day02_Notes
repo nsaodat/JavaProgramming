@@ -1,0 +1,94 @@
+Java Day02
+Topics: main method
+		print statement (println() )
+
+how to open preference window:
+	windows:
+		file -> settings
+
+	Mac:
+		IntelliJ IDEA -> Preference
+
+
+How to create project?
+	File -> new -> Project
+
+
+How to open recent projects?
+	File -> Open recent
+
+
+How to rename?
+	right click -> refactor -> rename
+
+
+src folder: used for storing packages
+
+package: used for storing java files in an organized manner
+
+		right click src folder -> new  -> package
+
+		package name starts with lower case letter
+
+		CamelCase
+
+
+Java File:
+		right click PACKAGE -> new -> Java Class
+
+		class name  starts with upper case letter
+
+		CamelCase
+
+
+formatting the codes:
+	windows:
+		ctrl + alt + L
+
+	Mac:
+		Command + Option + L
+
+	Or:
+		help -> find an action -> type "Code format" + Enter + Enter
+
+
+main method:
+	1. type "main" + Enter
+
+
+println():
+	type "sout" + Enter
+
+
+how to send code snippet in discord: by using back tick
+
+		```
+		code goes here
+		```
+		 + Enter
+
+
+
+___________________________
+
+
+        //What are JRE and Java compiler used for?
+        System.out.println(" Java Runtime Environment is used for writing codes ");
+        //What is the main method used for?
+        System.out.println(" Main method is for running codes");
+        // What is the src folder used for?
+        System.out.println("SRC is used as a folder");
+        //What is package used for?
+        System.out.println("Package is used for organising our codes");
+        //What is class used for?
+        System.out.println("Class is used as header");
+        //What is System.out.println used for?
+        System.out.println(" It is used for printing/converting the codes that we have written");
+
+
+
+
+
+
+
+

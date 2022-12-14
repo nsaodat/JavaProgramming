@@ -1,0 +1,73 @@
+Java Day22
+Topic: Multi Dimensional Array
+
+package name: day22_MultiDimensionalArray
+
+warmup task:
+	1. Write a program that can reverse a sentence
+			Ex:
+				sentence = "Today is a good day to learn Java";
+
+			output:
+				Java learn to day good a is Today
+
+
+	2. Write a program that can reverse the second word of the sentence
+			Ex:
+				sentence = "I Love Java";
+
+			output:
+				I evoL Java
+
+
+Single Dimensional Array: container for the elemnts
+		10
+		20
+		40
+
+		int[] array = {10, 20, 30};
+
+
+Multi Dimensional Array: container for the arrays
+
+Array: one of the three data structures
+		size is fixed
+		supports primitives & non-primitives
+		can be multi-dimensional
+
+--------------------------------------------------
+
+	one dimensional array: array of elements
+			[index Of Elements]
+
+	multi-dimensional array: array of arrays. two or more dimensional ([][]..)
+			[index of Arrays][index Of Elements]
+			[][][]
+			.....
+
+			n dimensional array contains (n-1) dimensional array
+
+
+Arrays: utility class for array. in "java.util" package
+
+		toString()
+		deepToString()
+		sort()
+		equals()
+		copyOf()
+		copyOfRange()
+
+
+String methods:
+	toCharArray()
+	split()
+
+
+for each loop: already iterated
+			    iteration order is fixed
+
+			    THERE MUST BE A DATA STRUCTURE
+
+			    for(DataType variable : Array){
+
+			    }
