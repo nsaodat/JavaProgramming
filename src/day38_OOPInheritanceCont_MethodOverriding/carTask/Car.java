@@ -1,4 +1,5 @@
 package day38_OOPInheritanceCont_MethodOverriding.carTask;
+import java.lang.Object; // Object class is imported implicitly. It is built in the parent Class and inherited by children Classes
 
 public class Car {
     public String brand, model;
@@ -16,7 +17,7 @@ public class Car {
         this.miles = miles;
     }
 
-    public void start() {
+ public void start() {
         System.out.println(brand + model + " is starting");
     }
         public void drive () {

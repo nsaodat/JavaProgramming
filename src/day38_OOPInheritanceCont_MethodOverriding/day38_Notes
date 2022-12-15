@@ -93,7 +93,12 @@ Method Overloading: multiple different methods having the same name.
 					ANY method can be overloaded
 
 
-Method Overriding:
+Method Overriding: one method only
+                   - Giving different implementations to the method
+                   • One method having multiple different implementations
+                   • Overriding a method must take place in subclass
+                   • Less memory usage and Improves the re-usability of our code
+
 
 
 
