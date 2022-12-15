@@ -34,7 +34,7 @@ Warmup task:
 
 IS A relation vs HAS A relation:
 
-	IS A:
+	IS A: (as long as there an INHERITANCE first, then IS A relationship can be achieved)
 		class Animal{
 
 		}
@@ -53,7 +53,8 @@ IS A relation vs HAS A relation:
 		}
 
 
-	HAS A:
+	HAS A: (When one Class reference is being used in another Class
+	        or when one OBJECT is being used in a different object known as HAS A relation) <--- there is no Inheritance
 
 		class Tester extends Employee{
 
