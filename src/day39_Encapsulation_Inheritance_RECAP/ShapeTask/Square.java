@@ -37,8 +37,8 @@ public class Square extends Shape{// side variable can not be inherited from Sha
     public String toString() {
         return "Square{" +
                 "side=" + side +
-                "area=" + area() +
-                "parameter=" + parameter() +
+                ", area=" + area() +
+                ", parameter=" + parameter() +
                 '}';
     }
 }
