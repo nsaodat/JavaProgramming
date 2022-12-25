@@ -8,7 +8,7 @@ Access Modifiers:
 		public > protected > default > private
 
 
-Final Keyword: unchangable
+Final Keyword: un-changable
 
 		Variables: can not be reassigned
 
@@ -40,13 +40,13 @@ Exceptions: unexpected or unwanted events
 
 
 
-Exception handlings:
+Exception handling:
 
 		1. Try & Catch blocks: used for handling checked and unchecked exceptions
 
 						try{
 
-							exception code
+							exception code    ---> everytime when exception occurs, object of the exception is created and we are catching it in the catch block
 
 						}catch(ExceptionClass  e){
 
@@ -64,7 +64,7 @@ Exception handlings:
 
 Interview Question:
 
-		final vs finally vs finalize
+		final --> keyword vs finally --> block vs finalize --> method,  garbage collector calls it through the Object to destroy the object
 
 
 
