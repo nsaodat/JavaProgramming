@@ -19,7 +19,8 @@ Final Keyword: un-changable
 
 Exceptions Topic:
 		1. Unchecked vs Checked
-		2. try & catch blocks
+		2. try & catch blocks --->     short cut For Windows ctrl   +alt + T
+                                                    For mac     command+alt + T
 		3. Multi-catch block
 		4. finally block
 
@@ -59,12 +60,20 @@ Exception handling:
 
 			finally block: always gets executed regardless of the exception is being handled or not handled
 
-							to stop the execution of the finally block: Syste.exit(0)
+							to stop the execution of the finally block: System.exit(0)
 
 
 Interview Question:
 
-		final --> keyword vs finally --> block vs finalize --> method,  garbage collector calls it through the Object to destroy the object
+		final --> keyword. We can apply it to methods, classes or variables to make them un-modifiable/restrict the User.
+
+		finally --> used with try & catch block for exception handling.
+		      Always gets executed regardless of the exception is being handled or not handled.
+		      To stop the execution of the finally block: System.exit(0)
+
+
+		finalize --> method,  garbage collector calls it through the Object to destroy the unreferenced object and
+		              this helps with heap memory housekeeping.
 
 
 

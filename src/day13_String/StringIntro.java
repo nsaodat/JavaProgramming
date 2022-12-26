@@ -1,7 +1,5 @@
 package day13_String;
 
-import java.sql.SQLOutput;
-
 public class StringIntro {
 // import java.lang.String <--- String is imported from lang.package. It is imported implicitly by the compiler, therefore no need in importing manually like we do for the Scanner!
 // String Class is designed for char sequences (combination of multiple characters) in Java
@@ -58,6 +56,11 @@ public class StringIntro {
         System.out.println(str1 == str2); // false
         System.out.println(str2 == str3); // false
         System.out.println(str1 == str3);// false
+
+
+
+
+
 
         System.out.println("_______________ Comparison of Visible texts of 2 String variables with_equals() ___________");
 
