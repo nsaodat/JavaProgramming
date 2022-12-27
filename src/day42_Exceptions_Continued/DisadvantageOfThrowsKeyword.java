@@ -1,6 +1,9 @@
 package day42_Exceptions_Continued;
 
 public class DisadvantageOfThrowsKeyword {
+
+
+    // Whoever calls the method that has throws keyword in its signature is responsible to handle it or declare it again
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Hello");
         sleep(2.5); // throws
