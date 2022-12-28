@@ -3,7 +3,7 @@ package day42_Exceptions_Continued;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ThrowKeyword {
+public class Throw_Keyword {
     public static void main(String[] args) {
 
         System.out.println("Enter your age: "); // -20
