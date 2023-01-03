@@ -1,6 +1,6 @@
 package day43_OOP_Abstraction_Intro.employeeTask;
 
-public class Teacher extends  Employee{
+public final class Teacher extends  Employee{
     public Teacher(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender, id, jobTitle, salary);
     }
