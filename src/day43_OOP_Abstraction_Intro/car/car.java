@@ -1,6 +1,6 @@
 package day43_OOP_Abstraction_Intro.car;
 
-public class car {
+public abstract class car { // we can not create Objects from abstract classes, because they are not concrete!
     private final String make, model;
     private String color;
     private final int year;
@@ -49,4 +49,12 @@ public class car {
     public void setPrice(double price) {
         this.price = price;
     }
+
+
+   public  abstract void stop(); // class MUST be abstract class for abstract methods to compile!!!
+// Abstract method is meant to be overridden and has no body, so that sub-classes can add implementation to the method!
+    // final and abstract keywords DO NOT GET ALONG!
+
+
+
 }
