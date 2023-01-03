@@ -48,7 +48,7 @@ Abstraction: focusing on the essentials without worrying about the small details
 
 
 abstract class Device{
-	tunrOff();
+	turnOff();
 
 }
 
@@ -149,7 +149,7 @@ Shape task:
 
 
 
-Animnal task:
+Animal task:
 
 		abstract Animal
 

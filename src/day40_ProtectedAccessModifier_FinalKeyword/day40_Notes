@@ -26,7 +26,7 @@ Inheritance: Is A relation.
 
 
 
-protected access modifier: Alayws visible within the same package
+protected access modifier: Always visible within the same package
 						   Visible outside the package in subclass ONLY
 
 
