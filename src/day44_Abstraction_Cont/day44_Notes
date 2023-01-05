@@ -72,7 +72,7 @@ Animal Task:
 	Interface Wild:
 		hunt();
 
-	interface Plyable:
+	interface Playable:
 		play();
 
 	Abstract Animal:
