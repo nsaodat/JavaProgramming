@@ -2,7 +2,7 @@ package day44_Abstraction_Cont.animal;
 
 import day44_Abstraction_Cont.Animal;
 
-public class Dog extends Animal {
+public final class Dog extends Animal {
 
     public Dog(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
