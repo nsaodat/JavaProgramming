@@ -1,6 +1,6 @@
 package day33_Constructors_Statics;
 
-import java.sql.SQLOutput;
+
 
 public class EmployeeObjects {
     public static void main(String[] args) {

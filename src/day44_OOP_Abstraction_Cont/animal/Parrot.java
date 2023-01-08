@@ -1,6 +1,6 @@
-package day44_Abstraction_Cont.animal;
+package day44_OOP_Abstraction_Cont.animal;
 
-import day44_Abstraction_Cont.Animal;
+import day44_OOP_Abstraction_Cont.Animal;
 
 public final class Parrot extends Animal {
     public Parrot(String name, String breed, char gender, int age, String size, String color) {

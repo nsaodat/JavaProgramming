@@ -30,13 +30,11 @@ public class Test {
         System.out.println("D");
     }
 
+
     public static void main(String[] args) {
-
-        new Test("Java");
-        System.out.println("____________________________");
-
-        new Test ( 2.5);
-
+//new Test ("Java");
+     //   new Test(2.5);
+        new Test (8);
     }
 
 

@@ -11,38 +11,38 @@ public class ConstructorCalls {
 
     */
 
-         public ConstructorCalls(){
+    public ConstructorCalls() {
 
-             System.out.println("Default Constructor");
-        }
+        System.out.println("Default Constructor");
+    }
 
-    public ConstructorCalls(int a){
-            this(); // Default Constructor
-            System.out.println("Constructor with int argument");
-        }
+    public ConstructorCalls(int a) {
+        this(); // Default Constructor
+        System.out.println("Constructor with int argument");
 
-
-    public ConstructorCalls(String str){
-            this(10);
-            System.out.println("Constructor with String argument");
-        }
+    }
 
 
-        public static void main(String[] args) {
+    public ConstructorCalls(String str) {
+        this(10);
+        System.out.println("Constructor with String argument");
+    }
 
-            ConstructorCalls obj1 = new ConstructorCalls(); // Default Constructor
 
-            System.out.println("----------------------------");
+    public static void main(String[] args) {
 
-            ConstructorCalls obj2 = new ConstructorCalls(10); //Default Constructor
-                                                             // Constructor with int argument
+        ConstructorCalls obj1 = new ConstructorCalls(); // Default Constructor
 
-            System.out.println("----------------------------");
+        System.out.println("----------------------------");
 
-            ConstructorCalls obj3= new ConstructorCalls("Java"); // Default Constructor
-                                                          //     Constructor with int argument
-                                                          // Constructor with String argument
+        ConstructorCalls obj2 = new ConstructorCalls(10); //Default Constructor
+        // Constructor with int argument
 
+        System.out.println("----------------------------");
+
+        ConstructorCalls obj3 = new ConstructorCalls("Java"); // Default Constructor
+        //     Constructor with int argument
+        // Constructor with String argument
 
 
     }
