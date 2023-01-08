@@ -1,8 +1,6 @@
 package day44_OOP_Abstraction_Cont.animal;
 
-import day44_OOP_Abstraction_Cont.Animal;
-
-public final class Cat extends Animal {
+public final class Cat extends Animal implements WildAnimal {
     public Cat(String name, String breed, char gender, int age, String size, String color) {
         super(name, breed, gender, age, size, color);
     }
@@ -16,6 +14,10 @@ public final class Cat extends Animal {
         System.out.println(getName() + " is meowing");
     }
 
+    @Override
+    public void huntMethod() {
+        System.out.println(getName() + " is playing with mouse");
+    }
 }
 
 /*
