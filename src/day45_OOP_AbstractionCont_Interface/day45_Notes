@@ -32,7 +32,7 @@ interface: blueprint of class
 
 
 		   What interface can have?
-		   		variables:final static variables ONLY
+		   		variables: final static variables ONLY
 
 		   		methods: abstract method, default method, static method
 
@@ -43,11 +43,11 @@ interface: blueprint of class
 		   		Instance methods
 		   		Constructor
 		   		Blocks
-		   		private, deafult, protected access mdofiers
+		   		private, default, protected access modifiers
 
 		   why we need interface?
 		   		one class can extend one class ONLY
-		   		one class can implements multiple interfaces
+		   		But, one class can implement multiple interfaces
 		   			(Multiple inheritance is allowed)
 
 		   		100% abstraction
@@ -55,11 +55,15 @@ interface: blueprint of class
 
 
 
-Abastract class vs interface: both are used for achieving abstraction
+Abstract class vs interface:
+
+ Similarities :
+                              both are used for achieving abstraction
 							  both can not be instantiated
 							  both can not be final
 							  both are meant to be inherited
 
+Differences:
 
 		  	abstract class: one class can extends one abstract class
 
@@ -67,7 +71,7 @@ Abastract class vs interface: both are used for achieving abstraction
 
 		  					can have constructor
 
-		  					4 access mdofiers
+		  					4 access modifiers
 
 		  	interface: one class can implement multiple interfaces
 
